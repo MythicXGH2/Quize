@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/yourusername/Python-Quiz-Master?style=social)][(https://github.com/yourusername/Python-Quiz-Master/stargazers)](https://github.com/MythicXGH2/Quize)]
+[![Stars](https://img.shields.io/github/stars/yourusername/Python-Quiz-Master?style=social)](https://github.com/MythicXGH2/Quize)
 
 ---
 
