@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/yourusername/Python-Quiz-Master?style=social)](https://github.com/yourusername/Python-Quiz-Master/stargazers)
+[![Stars](https://img.shields.io/github/stars/yourusername/Python-Quiz-Master?style=social)][(https://github.com/yourusername/Python-Quiz-Master/stargazers)](https://github.com/MythicXGH2/Quize)]
 
 ---
 
@@ -30,7 +30,10 @@
 
 | Main Menu                  | Playing Quiz                   | Leaderboard                  |
 |----------------------------|--------------------------------|--------------------------------|
-| ![Menu](https://via.placeholder.com/400x250/23272e/ffffff?text=Main+Menu) | ![Game](https://via.placeholder.com/400x250/23272e/ffffff?text=Playing+Quiz) | ![Leaderboard](https://via.placeholder.com/400x250/23272e/ffffff?text=Leaderboard) |
+| ![Menu]<img width="359" height="193" alt="image" src="https://github.com/user-attachments/assets/e3855858-1ceb-41cc-894c-5f94700df2c6" />
+ | ![Game]<img width="432" height="925" alt="image" src="https://github.com/user-attachments/assets/2bf1d07b-7727-4d8a-851a-be4ab4d0a7e4" />
+ | ![Leaderboard]<img width="487" height="131" alt="image" src="https://github.com/user-attachments/assets/f32a9e5e-6eca-4448-a231-decf8fb2e4e2" />
+ |
 
 > Replace the above placeholder images with your real screenshots for maximum impact!
 
