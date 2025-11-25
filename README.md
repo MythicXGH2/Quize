@@ -24,6 +24,16 @@
 
 ---
 
+## Overview
+
+This is a **fully functional Quiz Game** built using **Python** with the following exciting features:
+- 3 Categories: General Knowledge, Python Programming, Computer Science
+- 10-second timer for each question
+- Beautiful colored output
+- Random questions every time
+- Saves high scores with name, date, and category
+- Clean menu system & leaderboard
+
 ## How to Run
 
 ```bash
@@ -36,20 +46,6 @@ cd Python-Quiz-Master
 # 3. Run the game
 python quiz_game.py
 ```
-
-## Overview
-
-This is a **fully functional Quiz Game** built using **Python** with the following exciting features:
-- 3 Categories: General Knowledge, Python Programming, Computer Science
-- 10-second timer for each question
-- Beautiful colored output
-- Random questions every time
-- Saves high scores with name, date, and category
-- Clean menu system & leaderboard
-
-Perfect for **1st Year CSE Mini Project** – 100% working & well-commented code!
-
-## How to Run the Project (Step-by-Step)
 
 ### Prerequisites
 - Python 3.6 or higher installed
