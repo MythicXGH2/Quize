@@ -1,8 +1,6 @@
 # Python Quiz Master - Interactive Quiz Game 🎯✨
 
 <img width="900" height="383" alt="python quiz game" src="https://github.com/user-attachments/assets/49ce884e-9dae-4dbd-92dc-25dff67b42de" />
-" alt="Quiz Master Banner" width="100%"/>
-
 **A fun, colorful, and fully featured Quiz Game in Python – Ideal for 1st Year CSE Mini Project**
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyourusername%2FPython-Quiz-Master&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" align="right"/></a>
