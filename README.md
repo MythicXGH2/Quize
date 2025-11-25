@@ -1,6 +1,6 @@
 # Python Quiz Master - Interactive Quiz Game 🎯✨
 
-<img src="https://raw.githubusercontent.com/TechWithTushar/imgs/main/quiz-banner.png" alt="Quiz Master Banner" width="100%"/>
+<img src="[https://raw.githubusercontent.com/TechWithTushar/imgs/main/quiz-banner.png](https://cdn.prod.website-files.com/6007f8b630f7e5727bc2e10d/6213e424f156b612ffc723c1_python%20quiz%20game.png)" alt="Quiz Master Banner" width="100%"/>
 
 **A fun, colorful, and fully featured Quiz Game in Python – Ideal for 1st Year CSE Mini Project**
 
