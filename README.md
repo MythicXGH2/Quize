@@ -1,20 +1,49 @@
-# Python Quiz Master 🧠✨
-### A Fun & Interactive Quiz Game – Perfect 1st Year CSE Mini Project
+# Python Quiz Master - Interactive Quiz Game 🎯✨
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](https://github.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img src="https://raw.githubusercontent.com/TechWithTushar/imgs/main/quiz-banner.png" alt="Quiz Master Banner" width="100%"/>
 
-![Quiz Game Preview](https://via.placeholder.com/800x400.png?text=Python+Quiz+Master+Screenshot)  
-*(Replace the above link with your actual screenshot for extra points!)*
+**A fun, colorful, and fully featured Quiz Game in Python – Ideal for 1st Year CSE Mini Project**
 
-## 🚀 Features
-- 3 exciting categories: General Knowledge, Python Programming, Computer Science
-- 10-second timer per question ⏱️
-- Beautiful colored output (works on Windows, Linux, macOS)
-- Random questions every time you play
-- Permanent leaderboard with date & time
-- Score tracking & motivational messages
-- Clean menu & user-friendly interface
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyourusername%2FPython-Quiz-Master&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" align="right"/></a>
 
-## 📸 Screenshots
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/yourusername/Python-Quiz-Master?style=social)](https://github.com/yourusername/Python-Quiz-Master/stargazers)
+
+---
+
+## ✨ Features
+
+| Feature                    | Description                                   |
+|---------------------------|------------------------------------------------|
+| 3 Quiz Categories         | General Knowledge · Python · Computer Science |
+| 10-Second Timer           | Per question – adds excitement!               |
+| Colorful Terminal UI      | Beautiful green, red, cyan colors             |
+| Random Questions          | Different every time you play                 |
+| Leaderboard               | Saves scores with name, date & category       |
+| Motivational Messages     | Based on your final score                     |
+| Clean Code & Comments     | Easy to understand & modify                   |
+
+---
+
+## Screenshots
+
+| Main Menu                  | Playing Quiz                   | Leaderboard                  |
+|----------------------------|--------------------------------|--------------------------------|
+| ![Menu](https://via.placeholder.com/400x250/23272e/ffffff?text=Main+Menu) | ![Game](https://via.placeholder.com/400x250/23272e/ffffff?text=Playing+Quiz) | ![Leaderboard](https://via.placeholder.com/400x250/23272e/ffffff?text=Leaderboard) |
+
+> Replace the above placeholder images with your real screenshots for maximum impact!
+
+---
+
+## How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/Python-Quiz-Master.git
+
+# 2. Go to project folder
+cd Python-Quiz-Master
+
+# 3. Run the game
+python quiz_game.py
