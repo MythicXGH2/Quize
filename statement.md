@@ -71,6 +71,144 @@ To develop a **fun, interactive, terminal-based quiz application** in Python tha
   - Modules: `time`, `random`, `os`, `datetime`
   - Error Handling & Input Validation
 
+# Class Diagram – Python Quiz Master
+
+Even though the project is written in **procedural style** (perfect for 1st year), below is the **logical Object-Oriented Class Diagram** that represents how the system can be modeled using classes. This is exactly what your teachers expect in documentation!
+
+```mermaid
+classDiagram
+    class Player {
+        -name: string
+        -score: int
+        +setName(name)
+        +increaseScore()
+        +getScore() int
+        +getName() string
+    }
+
+    class QuizEngine {
+        -questions: dict
+        -selectedCategory: string
+        -currentQuestion: dict
+        -timer: int = 10
+        +startQuiz()
+        +selectCategory(cat)
+        +loadRandomQuestions() list
+        +displayQuestion()
+        +startTimer() float
+        +checkAnswer(userAns) bool
+        +showResult(isCorrect)
+        +showFinalScore()
+    }
+
+    class QuestionBank {
+        <<static>>
+        -gkQuestions: list
+        -pythonQuestions: list
+        -csQuestions: list
+        +getQuestions(category) list
+        +addQuestion(category, q)
+    }
+
+    class Leaderboard {
+        -filePath: string = "quiz_leaderboard.txt"
+        +saveScore(player: Player, category, score)
+        +viewAllScores() string
+        +formatEntry(player, category, score) string
+    }
+
+    class UI {
+        <<static>>
+        +printWelcome()
+        +printMenu()
+        +printGreen(text)
+        +printRed(text)
+        +printYellow(text)
+        +printCyan(text)
+        +clearScreen()
+    }
+
+    %% Relationships
+    Player "1" --> "1" QuizEngine : plays
+    QuizEngine "1" --> "1" QuestionBank : fetches questions from
+    QuizEngine "1" --> "1" Leaderboard : saves result to
+    QuizEngine "1" --> "1" UI : displays using
+    Leaderboard --> Player : records
+```
+```mermaid
+sequenceDiagram
+    Player->>QuizEngine: Submit answer
+    QuizEngine->>Timer: Start 10s
+    alt In time
+        QuizEngine->>QuizEngine: Validate
+        QuizEngine-->>Player: Correct! (Green)
+    else Timeout
+        QuizEngine-->>Player: Time's Up! (Red)
+    end
+    QuizEngine->>Leaderboard: Save final score
+```
+# System Architecture Diagram – Python Quiz Master
+
+### High-Level System Architecture (Textual + Mermaid Diagram)
+
+```markdown
+High-Level Architecture
+┌───────────────┐       ┌─────────────────────────┐       ┌─────────────────────┐
+│   Player      │ ◄────► │     Python Quiz Master   │ ◄──►  │  quiz_leaderboard.txt │
+│  (User)       │  CLI   │       (quiz_game.py)     │  File │   (Persistent Storage)│
+└───────────────┘       └─────────────────────────┘       └─────────────────────┘
+          ▲                       ▲          ▲
+          │                       │          │
+          │                       │          ▼
+          │               ┌───────┴──────┐
+          │               │ Question Bank │
+          │               │ (In-Memory    │
+          │               │  Dictionary)  │
+          │               └──────────────┘
+          │
+          ▼
+   ┌───────────────┐
+   │  UI Module     │ ← Handles colors, menus, messages
+   └───────────────┘
+```
+# Database & Storage Design – Python Quiz Master
+
+Since this is a **1st-year lightweight desktop application**, we use **file-based persistent storage** instead of a full DBMS (which is perfectly acceptable and demonstrates core file handling concepts).
+
+### Storage Choice Justification
+| Option              | Chosen? | Reason                                                                 |
+|---------------------|---------|--------------------------------------------------------------------------|
+| Text File (.txt)    | Yes     | Simple, no external dependency, easy to implement & understand         |
+| SQLite              | No      | Overkill for 1st-year project                                           |
+| JSON File           | Alternative | Could be used, but plain text is simpler for leaderboard               |
+| CSV                 | Alternative | Also good, but plain text with pipe separator is more readable         |
+
+**Final Choice: `quiz_leaderboard.txt` (Plain Text File)**
+
+### Storage Schema Design
+
+**File Name**: `quiz_leaderboard.txt`  
+**Location**: Same folder as `quiz_game.py`  
+**Format**: One record per line (pipe-separated)
+```mermaid
+erDiagram
+    PLAYER {
+        string name
+        int score
+    }
+    QUIZ_SESSION {
+        string category
+        string date_time
+        int score
+    }
+    LEADERBOARD_FILE ||--o{ QUIZ_SESSION : stores
+    PLAYER ||--o{ QUIZ_SESSION : participates_in
+
+   LEADERBOARD_FILE {
+        text file_path PK "quiz_leaderboard.txt"
+    }
+```
+
 ## Conclusion
 **Python Quiz Master** is a complete, entertaining, and educational project that perfectly demonstrates fundamental programming concepts while being genuinely useful and fun to play.  
 An ideal mini project for 1st-year students to impress teachers and build a strong foundation!
