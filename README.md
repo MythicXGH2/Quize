@@ -24,14 +24,6 @@
 
 ---
 
-## Screenshots
-
-| Main Menu                  | Playing Quiz                   | Leaderboard                  |
-|----------------------------|--------------------------------|--------------------------------|
-|<img width="359" height="193" alt="image" src="https://github.com/user-attachments/assets/e3855858-1ceb-41cc-894c-5f94700df2c6" /> | <img width="432" height="925" alt="image" src="https://github.com/user-attachments/assets/2bf1d07b-7727-4d8a-851a-be4ab4d0a7e4" />|<img width="487" height="131" alt="image" src="https://github.com/user-attachments/assets/f32a9e5e-6eca-4448-a231-decf8fb2e4e2" />|
-
----
-
 ## How to Run
 
 ```bash
@@ -43,4 +35,22 @@ cd Python-Quiz-Master
 
 # 3. Run the game
 python quiz_game.py
+```
 
+## Overview
+
+This is a **fully functional Quiz Game** built using **Python** with the following exciting features:
+- 3 Categories: General Knowledge, Python Programming, Computer Science
+- 10-second timer for each question
+- Beautiful colored output
+- Random questions every time
+- Saves high scores with name, date, and category
+- Clean menu system & leaderboard
+
+Perfect for **1st Year CSE Mini Project** – 100% working & well-commented code!
+
+## How to Run the Project (Step-by-Step)
+
+### Prerequisites
+- Python 3.6 or higher installed
+- Any code editor (VS Code recommended)
