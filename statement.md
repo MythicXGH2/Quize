@@ -76,12 +76,18 @@ To develop a **fun, interactive, terminal-based quiz application** in Python tha
 An ideal mini project for 1st-year students to impress teachers and build a strong foundation!
 
 ---
-**Submitted By**:  
-**Name**: Patel Meghal Vipulkumar 
+**Submitted By**: Patel Meghal Vipulkumar
+
+**Name**: Patel Meghal Vipulkumar
+
 **Roll No.**: 25BAS10001
+
 **Branch**: Aerospace Engineering  
+
 **Year**: 1st Year  
+
 **College**:VIT Bhopal  
+
 **Academic Year**: 2025–2026
 
 **Made with Love, Python & Lots of Coffee**
