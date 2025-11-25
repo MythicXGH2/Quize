@@ -30,8 +30,7 @@
 
 | Main Menu                  | Playing Quiz                   | Leaderboard                  |
 |----------------------------|--------------------------------|--------------------------------|
-|<img width="359" height="193" alt="image" src="https://github.com/user-attachments/assets/e3855858-1ceb-41cc-894c-5f94700df2c6" /> | <img width="432" height="925" alt="image" src="https://github.com/user-attachments/assets/2bf1d07b-7727-4d8a-851a-be4ab4d0a7e4" />|<img width="487" height="131" alt="image" src="https://github.com/user-attachments/assets/f32a9e5e-6eca-4448-a231-decf8fb2e4e2" />
- |
+|<img width="359" height="193" alt="image" src="https://github.com/user-attachments/assets/e3855858-1ceb-41cc-894c-5f94700df2c6" /> | <img width="432" height="925" alt="image" src="https://github.com/user-attachments/assets/2bf1d07b-7727-4d8a-851a-be4ab4d0a7e4" />|<img width="487" height="131" alt="image" src="https://github.com/user-attachments/assets/f32a9e5e-6eca-4448-a231-decf8fb2e4e2" />|
 
 ---
 
@@ -46,3 +45,4 @@ cd Python-Quiz-Master
 
 # 3. Run the game
 python quiz_game.py
+
